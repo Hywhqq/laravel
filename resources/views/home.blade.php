@@ -20,7 +20,7 @@
                 @if(count($articles))
                 @foreach($articles as $article)
                 <div class="card">
-                    <img src="{{ $article->image_url }}" alt="IPhone" class="card__image">
+                    <img src="{{ $article->image_url }}" style="width: 250px; height: 200px;" alt="IPhone" class="card__image">
                     <div class="card__info">
                         <p class="card__title">{{ $article->name }}</p>
                         <p class="card__price">{{ $article->price }} </p>

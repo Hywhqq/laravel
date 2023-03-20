@@ -6,6 +6,14 @@
 
     <!-- Menu -->
     <section class="hits">
+        <div class="banner">
+            <div class="arrow_left">
+                ‹
+            </div>
+            <div class="banner_img"><img src="images/9maya.jpg" style="height: 450px; width: 700px; margin-bottom: 100px;" alt=""/></div>
+            <div class="arrow_right">
+                ›</div>
+        </div>
         <div class="container">
             <h1 class="section__title">Хиты продаж</h1>
             <div class="hits__wrapper">
@@ -42,24 +50,25 @@
                 <input type="text" class="input" placeholder="Ваш отзыв">
                 <button class="btn">Отправить</button>
             </form>
+
         </div>
-        </div>
-
-    </section>
-
-
-    <section class="about" id="about">
         <div class="container">
+            <div class="footer__wrapper" style="margin-top: 250px">
+                <div class="footer__info">© 2022 - 2022 ILUXE.</div>
+                <div class="footer__captcha" style="">Этот сайт защищен Google reCAPTCHA, <br> применяются Политика конфиденциальности и Условия использования.</div>
+                <div class="social">
 
-
-
+                    <div> <img src="images/vk.svg" style="height: 25px; width: 25px;" alt=""/> </div>
+                    <img src="images/tg.svg" alt="" style="height: 25px; width: 25px; ;"/>
+                </div>
+            </div>
+        </div>
+        </div>
 
     </section>
 
-    <div>
-        Roma privet
-        Roma privet
-    </div>
+
+
 
 
 @endsection

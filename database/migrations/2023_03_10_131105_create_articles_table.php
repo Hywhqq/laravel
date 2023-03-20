@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('articles', function (Blueprint $table) {
             $table->id();
             $table->string('name', 25);
-            $table->string('image_path', 255)->nullable()->default('public/images/defaul.png');
+            $table->string('image_path', 255)->nullable()->default('public/images/defaul.jpg');
             $table->integer('price');
 
             $table->timestamps();
